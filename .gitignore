@@ -1,15 +1,23 @@
-# Logs
-*.log
-
-# OS files
+# OS junk
 .DS_Store
 Thumbs.db
 
-# Editors
-.idea/
-.vscode/
-*.swp
+# Editor backups
+*~
 
-# Environment
-.env
-.env.*
+# Autotools build artifacts
+autom4te.cache/
+aclocal.m4
+configure
+config.h.in
+Makefile.in
+ltmain.sh
+libtool
+
+# Build output
+*.o
+*.lo
+*.la
+*.so
+.deps/
+.libs/

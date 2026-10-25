@@ -1,40 +1,18 @@
-# test
+xf86-video-mga - Matrox video driver for the Xorg X server
+----------------------------------------------------------
 
-A minimal sandbox repository for testing Git and GitHub workflows — commits, branches, remotes, and CI-friendly defaults, without any real-world dependencies.
+All questions regarding this software should be directed at the
+Xorg mailing list:
 
-## What's in here
+  https://lists.x.org/mailman/listinfo/xorg
 
-Not much, on purpose. This repo exists as a clean slate for experimenting with Git workflows:
+The primary development code repository can be found at:
 
-- **Commits** — atomic, well-messaged changes
-- **Branches** — short-lived feature branches merged back to `main`
-- **Releases** — tagged snapshots (`v0.1.0` and up)
-- **CI-ready layout** — a predictable structure that tools can find
+  https://gitlab.freedesktop.org/xorg/driver/xf86-video-mga
 
-## Repository layout
+Please submit bug reports and requests to merge patches there.
 
-```
-.
-├── README.md          # You are here
-├── LICENSE            # MIT
-└── .gitignore         # Sensible defaults
-```
+For patch submission instructions, see:
 
-## Getting started
+  https://www.x.org/wiki/Development/Documentation/SubmittingPatches
 
-Clone and go:
-
-```bash
-git clone https://github.com/owlrox/test.git
-cd test
-```
-
-That's it. There's nothing to build, nothing to install, and nothing to configure.
-
-## Contributing
-
-Changes are welcome. Keep commits small and messages descriptive — one logical change per commit, written in the imperative mood ("add feature", not "added feature").
-
-## License
-
-[MIT](LICENSE)
